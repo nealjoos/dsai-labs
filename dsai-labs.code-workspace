@@ -1,10 +1,12 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"files.autoSave": "onFocusChange"
-	}
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.autoSave": "onFocusChange",
+    "notebook.formatOnSave.enabled": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
 }
