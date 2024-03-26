@@ -6,6 +6,10 @@
   ],
   "settings": {
     "notebook.formatOnSave.enabled": true,
-    "editor.defaultFormatter": "ms-python.black-formatter"
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "python.terminal.activateEnvironment": true,
+    "python.analysis.extraPaths": [
+      "venv"
+    ]
   }
 }
