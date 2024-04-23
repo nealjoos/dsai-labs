@@ -29,5 +29,19 @@
 			"import seaborn as sns                               # Advanced data visualisation"
 		],
 		"description": "Imports for data science"
+	},
+
+	"Cohen's d function": {
+		"prefix": "cohensd",
+		"body": [
+			"def cohen_d(a, b):",
+			"    na = len(a)",
+			"    nb = len(b)",
+			"    pooled_sd = np.sqrt(",
+			"       ((na - 1) * np.var(a, ddof=1) + (nb - 1) * np.var(b, ddof=1)) / (na + nb - 2)",
+			"    )",
+			"    return (np.mean(b) - np.mean(a)) / pooled_sd"
+		],
+		"description": "Cohen's d function"
 	}
 }
