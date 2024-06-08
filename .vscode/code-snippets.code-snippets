@@ -43,5 +43,24 @@
 			"    return (np.mean(b) - np.mean(a)) / pooled_sd"
 		],
 		"description": "Cohen's d function"
+	},
+
+	"Linear regression":{
+		"prefix":"linreg",
+		"body":[
+			"from sklearn.linear_model import LinearRegression",
+			"",
+			"x = df[\"unit_produced\"].values.reshape(-1, 1)",
+			"y = df[\"production_cost\"]",
+			"",
+			"weight_model = LinearRegression().fit(x, y)",
+			"",
+			"a = weight_model.coef_[0]",
+			"b = weight_model.intercept_",
+			"",
+			"print(f\"Regression line: ŷ = {b:.4f} + {a:.4f} x\")"
+
+		],
+		"description": "Linear regression"
 	}
 }
