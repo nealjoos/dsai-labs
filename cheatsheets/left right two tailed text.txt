@@ -1,0 +1,21 @@
+LEFT TAILED TEST
+A left-tailed test is used when the research hypothesis states that the population parameter is less than the hypothesized value.
+
+Example:
+A manufacturer claims that the mean weight of a product is at least 50 grams. To test if the mean weight is actually less than 50 grams, you would use a left-tailed test.
+
+-------------------------------------
+
+RIGHT TAILED TEST
+A right-tailed test is used when the research hypothesis states that the population parameter is greater than the hypothesized value.
+
+Example:
+A company claims that the average lifespan of their batteries is at least 100 hours. To test if the average lifespan is greater than 100 hours, you would use a right-tailed test.
+
+-------------------------------------
+
+TWO TAILED TEST
+A two-tailed test is used when the research hypothesis states that the population parameter is different from (either less than or greater than) the hypothesized value.
+
+Example:
+A study claims that the average IQ score of a group is 100. To test if the actual average IQ score is different from 100, you would use a two-tailed test.

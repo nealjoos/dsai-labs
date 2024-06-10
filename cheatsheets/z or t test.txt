@@ -1,0 +1,13 @@
+T-TEST
+
+- sample size is to small       n < 30
+- normaal verdeeld
+- populatie std is onbekend
+
+
+Z-TEST
+
+- steekproef moet random zijn
+- steekproef groot genoeg       𝑛 ≥ 30
+- moet normaal verdeeld zijn
+- populatie std is gekend
